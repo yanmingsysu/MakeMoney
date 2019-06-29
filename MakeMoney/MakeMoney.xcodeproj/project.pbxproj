@@ -21,6 +21,7 @@
 		8AAC660C22C77FE0005A3618 /* MoneyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC660B22C77FE0005A3618 /* MoneyTask.m */; };
 		8AAC661B22C79349005A3618 /* TABCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC661722C79348005A3618 /* TABCardView.m */; };
 		8AAC661C22C79349005A3618 /* TABBaseCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC661922C79349005A3618 /* TABBaseCardView.m */; };
+		8AAC661F22C797C5005A3618 /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC661E22C797C5005A3618 /* TaskTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		8AAC661822C79349005A3618 /* TABBaseCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABBaseCardView.h; sourceTree = "<group>"; };
 		8AAC661922C79349005A3618 /* TABBaseCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABBaseCardView.m; sourceTree = "<group>"; };
 		8AAC661A22C79349005A3618 /* TABDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABDefine.h; sourceTree = "<group>"; };
+		8AAC661D22C797C5005A3618 /* TaskTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		8AAC661E22C797C5005A3618 /* TaskTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				8AAC65FD22C75458005A3618 /* ProfileViewController.m */,
 				8AAC660A22C77FE0005A3618 /* MoneyTask.h */,
 				8AAC660B22C77FE0005A3618 /* MoneyTask.m */,
+				8AAC661D22C797C5005A3618 /* TaskTableViewCell.h */,
+				8AAC661E22C797C5005A3618 /* TaskTableViewCell.m */,
 			);
 			path = MakeMoney;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			files = (
 				8AAC65FB22C75413005A3618 /* AddTaskViewController.m in Sources */,
 				8AAC65C922C74D73005A3618 /* ViewController.m in Sources */,
+				8AAC661F22C797C5005A3618 /* TaskTableViewCell.m in Sources */,
 				8AAC65D422C74D73005A3618 /* main.m in Sources */,
 				8AAC65C622C74D73005A3618 /* AppDelegate.m in Sources */,
 				8AAC661B22C79349005A3618 /* TABCardView.m in Sources */,
