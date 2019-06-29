@@ -19,6 +19,8 @@
 		8AAC65FB22C75413005A3618 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65FA22C75413005A3618 /* AddTaskViewController.m */; };
 		8AAC65FE22C75458005A3618 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65FD22C75458005A3618 /* ProfileViewController.m */; };
 		8AAC660C22C77FE0005A3618 /* MoneyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC660B22C77FE0005A3618 /* MoneyTask.m */; };
+		8AAC661B22C79349005A3618 /* TABCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC661722C79348005A3618 /* TABCardView.m */; };
+		8AAC661C22C79349005A3618 /* TABBaseCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC661922C79349005A3618 /* TABBaseCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,11 @@
 		8AAC65FD22C75458005A3618 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		8AAC660A22C77FE0005A3618 /* MoneyTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyTask.h; sourceTree = "<group>"; };
 		8AAC660B22C77FE0005A3618 /* MoneyTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTask.m; sourceTree = "<group>"; };
+		8AAC661622C79348005A3618 /* TABCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABCardView.h; sourceTree = "<group>"; };
+		8AAC661722C79348005A3618 /* TABCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABCardView.m; sourceTree = "<group>"; };
+		8AAC661822C79349005A3618 /* TABBaseCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABBaseCardView.h; sourceTree = "<group>"; };
+		8AAC661922C79349005A3618 /* TABBaseCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABBaseCardView.m; sourceTree = "<group>"; };
+		8AAC661A22C79349005A3618 /* TABDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +120,11 @@
 		8AAC65C322C74D73005A3618 /* MakeMoney */ = {
 			isa = PBXGroup;
 			children = (
+				8AAC661822C79349005A3618 /* TABBaseCardView.h */,
+				8AAC661922C79349005A3618 /* TABBaseCardView.m */,
+				8AAC661622C79348005A3618 /* TABCardView.h */,
+				8AAC661722C79348005A3618 /* TABCardView.m */,
+				8AAC661A22C79349005A3618 /* TABDefine.h */,
 				8AAC65C422C74D73005A3618 /* AppDelegate.h */,
 				8AAC65C522C74D73005A3618 /* AppDelegate.m */,
 				8AAC65C722C74D73005A3618 /* ViewController.h */,
@@ -286,8 +298,10 @@
 				8AAC65C922C74D73005A3618 /* ViewController.m in Sources */,
 				8AAC65D422C74D73005A3618 /* main.m in Sources */,
 				8AAC65C622C74D73005A3618 /* AppDelegate.m in Sources */,
+				8AAC661B22C79349005A3618 /* TABCardView.m in Sources */,
 				8AAC660C22C77FE0005A3618 /* MoneyTask.m in Sources */,
 				8AAC65FE22C75458005A3618 /* ProfileViewController.m in Sources */,
+				8AAC661C22C79349005A3618 /* TABBaseCardView.m in Sources */,
 				8AAC65F822C753C1005A3618 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
