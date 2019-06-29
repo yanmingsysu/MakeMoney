@@ -26,9 +26,11 @@
     HomeViewController *mainViewController = [[HomeViewController alloc] init];
     mainViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"浏览" image:[UIImage imageNamed:@"list"] tag:0];
     
-    
     AddTaskViewController *addTaskViewController = [[AddTaskViewController alloc] init];
+    addTaskViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"发布" image:[UIImage imageNamed:@"plus"] tag:1];
+    
     ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
+    profileViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:[UIImage imageNamed:@"user_male"] tag:2];
     
     [menuTabBarController addChildViewController:[[UINavigationController alloc]initWithRootViewController:mainViewController]];
     [menuTabBarController addChildViewController:[[UINavigationController alloc]initWithRootViewController:addTaskViewController]];
