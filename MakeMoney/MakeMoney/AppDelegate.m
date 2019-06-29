@@ -24,6 +24,9 @@
     UITabBarController *menuTabBarController = [[UITabBarController alloc] init];
     
     HomeViewController *mainViewController = [[HomeViewController alloc] init];
+    mainViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"浏览" image:[UIImage imageNamed:@"list"] tag:0];
+    
+    
     AddTaskViewController *addTaskViewController = [[AddTaskViewController alloc] init];
     ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
     
