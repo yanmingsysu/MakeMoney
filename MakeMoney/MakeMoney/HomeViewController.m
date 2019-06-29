@@ -9,14 +9,18 @@
 #import "HomeViewController.h"
 
 @interface HomeViewController ()
-
+@property UIStackView *taskListStackView;
 @end
 
 @implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor blueColor]];
+    
+    self.taskListStackView = [[UIStackView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height * 0.83)];
+    [self.view addSubview:self.taskListStackView];
+    [self.taskListStackView setBackgroundColor:[UIColor whiteColor]];
+    
 }
 
 /*
