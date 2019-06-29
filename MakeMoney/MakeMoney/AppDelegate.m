@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "AddTaskViewController.h"
+#import "ProfileViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UITabBarController *menuTabBarController = [[UITabBarController alloc] init];
+    
+    HomeViewController *mainViewController = [[HomeViewController alloc] init];
+    AddTaskViewController *addTaskViewController = [[AddTaskViewController alloc] init];
+    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
+    
+    [menuTabBarController addChildViewController:[[UINavigationController alloc]initWithRootViewController:mainViewController]];
+    [menuTabBarController addChildViewController:[[UINavigationController alloc]initWithRootViewController:addTaskViewController]];
+    [menuTabBarController addChildViewController:[[UINavigationController alloc]initWithRootViewController:profileViewController]];
+    
+    self.window.rootViewController = menuTabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

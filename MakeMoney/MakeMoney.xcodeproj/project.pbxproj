@@ -15,6 +15,9 @@
 		8AAC65D422C74D73005A3618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65D322C74D73005A3618 /* main.m */; };
 		8AAC65DE22C74D73005A3618 /* MakeMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65DD22C74D73005A3618 /* MakeMoneyTests.m */; };
 		8AAC65E922C74D73005A3618 /* MakeMoneyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65E822C74D73005A3618 /* MakeMoneyUITests.m */; };
+		8AAC65F822C753C1005A3618 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65F722C753C1005A3618 /* HomeViewController.m */; };
+		8AAC65FB22C75413005A3618 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65FA22C75413005A3618 /* AddTaskViewController.m */; };
+		8AAC65FE22C75458005A3618 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC65FD22C75458005A3618 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		8AAC65E422C74D73005A3618 /* MakeMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAC65E822C74D73005A3618 /* MakeMoneyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeMoneyUITests.m; sourceTree = "<group>"; };
 		8AAC65EA22C74D73005A3618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAC65F622C753C1005A3618 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8AAC65F722C753C1005A3618 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8AAC65F922C75413005A3618 /* AddTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		8AAC65FA22C75413005A3618 /* AddTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		8AAC65FC22C75458005A3618 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		8AAC65FD22C75458005A3618 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				8AAC65CF22C74D73005A3618 /* LaunchScreen.storyboard */,
 				8AAC65D222C74D73005A3618 /* Info.plist */,
 				8AAC65D322C74D73005A3618 /* main.m */,
+				8AAC65F622C753C1005A3618 /* HomeViewController.h */,
+				8AAC65F722C753C1005A3618 /* HomeViewController.m */,
+				8AAC65F922C75413005A3618 /* AddTaskViewController.h */,
+				8AAC65FA22C75413005A3618 /* AddTaskViewController.m */,
+				8AAC65FC22C75458005A3618 /* ProfileViewController.h */,
+				8AAC65FD22C75458005A3618 /* ProfileViewController.m */,
 			);
 			path = MakeMoney;
 			sourceTree = "<group>";
@@ -262,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AAC65FB22C75413005A3618 /* AddTaskViewController.m in Sources */,
 				8AAC65C922C74D73005A3618 /* ViewController.m in Sources */,
 				8AAC65D422C74D73005A3618 /* main.m in Sources */,
 				8AAC65C622C74D73005A3618 /* AppDelegate.m in Sources */,
+				8AAC65FE22C75458005A3618 /* ProfileViewController.m in Sources */,
+				8AAC65F822C753C1005A3618 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

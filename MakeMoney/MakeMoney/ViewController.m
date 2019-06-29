@@ -9,14 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property UITabBar *menuTabBar;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 
